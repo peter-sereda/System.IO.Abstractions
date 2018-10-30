@@ -489,7 +489,6 @@ namespace System.IO.Abstractions.TestingHelpers.Tests
             });
 
             string filePath = XFS.Path(@"c:\something\not_exist.txt");
-            Console.WriteLine(filePath);
 
             fileSystem.File.Delete(filePath);
         }
